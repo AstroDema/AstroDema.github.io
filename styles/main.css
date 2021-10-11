@@ -30,7 +30,17 @@ body {
   white-space:normal;
   text-shadow:6px 0 0 black;
   display:inherit;
+  animation: start-animation 2s forwards ease-in-out;
 }
+
+@keyframes start-animation{
+  from{
+    opacity: 0;
+  }to{
+    opacity: 1;
+  }
+}
+
 #i5hl{
   text-align:center;
   color:#ffffff;
@@ -54,6 +64,7 @@ body{
   max-width:730px;
   border-radius:5px 5px 5px 5px;
   box-shadow:0 5px 35px 0 rgba(0,0,0,0.35);
+  animation: start-animation 2s forwards ease-in-out;
 }
 
 a.btn:link, a.btn:visited
